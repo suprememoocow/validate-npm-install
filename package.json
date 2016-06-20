@@ -1,0 +1,12 @@
+{
+  "name": "validate-npm-install",
+  "version": "0.1.0",
+  "description": "Validate that the version of node used during `npm install` matches the current version of node",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "node preinstall.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Newdigate <andrewn@datatribe.net> (http://about.me/andrewnewdigate)",
+  "license": "MIT"
+}
